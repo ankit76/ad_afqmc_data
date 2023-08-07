@@ -1,0 +1,252 @@
+number of H: 10
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -5.382633679404282  E_corr = -0.1266407157578324
+CCSD(T) correction = -0.00121979177740079
+E(CCSD) = -5.383209108329413  E_corr = -0.1266388967216615
+CCSD(T) correction = -0.00121975847901302
+# FD single point energies:
+# emf_m: -5.255992963646449, emf_p: -5.256570211607752
+# emp2_m: -5.344425363726972, emp2_p: -5.345001787541431
+# eccsd_m: -5.3826336794042815, eccsd_p: -5.383209108329413
+# eccsdpt_m: -5.383853471181682, eccsd_p: -5.384428866808426
+# FD Observables:
+HF observable: -28.862398065143676
+MP2 observable: -28.821190722938535
+CCSD observable: -28.77144625657024
+CCSD(T) observable: -28.769781337167895
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -5.382633697490231  E_corr = -0.1266407338437753
+UCCSD(T) correction = -0.0012197927517119
+E(UCCSD) = -5.383209126414676  E_corr = -0.1266389148069061
+UCCSD(T) correction = -0.00121975945320492
+# FD single point energies:
+# emf_m: -5.255992963646452, emf_p: -5.256570211607773
+# emp2_m: -5.344425364532712, emp2_p: -5.345001788346764
+# eccsd_m: -5.382633697490231, eccsd_p: -5.383209126414676
+# eccsdpt_m: -5.383853490241943, eccsd_p: -5.384428885867881
+# FD Observables:
+HF observable: -28.862398066031854
+MP2 observable: -28.82119070259925
+CCSD observable: -28.771446222242144
+CCSD(T) observable: -28.769781296889004
+number of H: 20
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -10.70815544671949  E_corr = -0.2528863362304693
+CCSD(T) correction = -0.00515763521760359
+E(CCSD) = -10.70963787599917  E_corr = -0.2528829544622372
+CCSD(T) correction = -0.00515751400408974
+# FD single point energies:
+# emf_m: -10.45526911048902, emf_p: -10.456754921536934
+# emp2_m: -10.642302358247361, emp2_p: -10.643786532420037
+# eccsd_m: -10.70815544671949, eccsd_p: -10.70963787599917
+# eccsdpt_m: -10.713313081937093, eccsd_p: -10.71479539000326
+# FD Observables:
+HF observable: -74.29055239569493
+MP2 observable: -74.20870863379392
+CCSD observable: -74.12146398406705
+CCSD(T) observable: -74.11540330837241
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -10.69922348442224  E_corr = -0.2313444756988078
+UCCSD(T) correction = -0.00831236146738262
+E(UCCSD) = -10.70070652790919  E_corr = -0.2313431872018178
+UCCSD(T) correction = -0.00831221231162695
+# FD single point energies:
+# emf_m: -10.467879008723422, emf_p: -10.469363340707375
+# emp2_m: -10.618172032397572, emp2_p: -10.619656977896142
+# eccsd_m: -10.699223484422237, eccsd_p: -10.700706527909192
+# eccsdpt_m: -10.70753584588962, eccsd_p: -10.709018740220818
+# FD Observables:
+HF observable: -74.21659919764068
+MP2 observable: -74.24727492848504
+CCSD observable: -74.15217434774135
+CCSD(T) observable: -74.14471655993182
+number of H: 30
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -16.03556738426655  E_corr = -0.3789946680946797
+CCSD(T) correction = -0.00984228191846898
+E(CCSD) = -16.03808797607918  E_corr = -0.3789897150726048
+CCSD(T) correction = -0.00984206505157309
+# FD single point energies:
+# emf_m: -15.656572716171873, emf_p: -15.65909826100657
+# emp2_m: -15.944577510461466, emp2_p: -15.947100600752536
+# eccsd_m: -16.035567384266553, eccsd_p: -16.038087976079176
+# eccsdpt_m: -16.045409666185023, eccsd_p: -16.047930041130748
+# FD Observables:
+HF observable: -126.2772417348401
+MP2 observable: -126.15451455353364
+CCSD observable: -126.02959063112705
+CCSD(T) observable: -126.0187472862384
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -16.02078047725785  E_corr = -0.3333241269727407
+UCCSD(T) correction = -0.0119669231055521
+E(UCCSD) = -16.02330154310725  E_corr = -0.3333219911346295
+UCCSD(T) correction = -0.0119668528557795
+# FD single point energies:
+# emf_m: -15.687456350285096, emf_p: -15.689979551972662
+# emp2_m: -15.910389697954344, emp2_p: -15.91291336656985
+# eccsd_m: -16.02078047725785, eccsd_p: -16.023301543107248
+# eccsdpt_m: -16.032747400363405, eccsd_p: -16.035268395963026
+# FD Observables:
+HF observable: -126.16008437831282
+MP2 observable: -126.18343077530623
+CCSD observable: -126.05329246984097
+CCSD(T) observable: -126.04977998105225
+number of H: 40
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -21.36326743676001  E_corr = -0.5050845411113301
+CCSD(T) correction = -0.0147380191856085
+E(CCSD) = -21.36691126998561  E_corr = -0.5050780015642207
+CCSD(T) correction = -0.0147377054406349
+# FD single point energies:
+# emf_m: -20.85818289564868, emf_p: -20.861833268421393
+# emp2_m: -21.247972324272688, emp2_p: -21.251619429769995
+# eccsd_m: -21.36326743676001, eccsd_p: -21.366911269985614
+# eccsdpt_m: -21.37800545594562, eccsd_p: -21.38164897542625
+# FD Observables:
+HF observable: -182.5186386355426
+MP2 observable: -182.3552748653867
+CCSD observable: -182.19166128012884
+CCSD(T) observable: -182.1759740314732
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -21.3457648486208  E_corr = -0.438160453280556
+UCCSD(T) correction = -0.0154407730498349
+E(UCCSD) = -21.34940873611408  E_corr = -0.4381571060698318
+UCCSD(T) correction = -0.0154406710999375
+# FD single point energies:
+# emf_m: -20.907604395340286, emf_p: -20.91125163004429
+# emp2_m: -21.20485787595516, emp2_p: -21.208504046440353
+# eccsd_m: -21.3457648486208, eccsd_p: -21.34940873611408
+# eccsdpt_m: -21.361205621670635, eccsd_p: -21.364849407214017
+# FD Observables:
+HF observable: -182.36173520023155
+MP2 observable: -182.30852425968888
+CCSD observable: -182.19437466395757
+CCSD(T) observable: -182.18927716908692
+number of H: 50
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -26.69101657038572  E_corr = -0.6311826817719018
+CCSD(T) correction = -0.0197079037037659
+E(CCSD) = -26.69584687410547  E_corr = -0.6311745417191315
+CCSD(T) correction = -0.0197074924738336
+# FD single point energies:
+# emf_m: -26.059833888613824, emf_p: -26.06467233238631
+# emp2_m: -26.55171859073814, emp2_p: -26.55655295900335
+# eccsd_m: -26.691016570385724, eccsd_p: -26.69584687410547
+# eccsdpt_m: -26.71072447408949, eccsd_p: -26.715554366579305
+# FD Observables:
+HF observable: -241.92218862424394
+MP2 observable: -241.71841326054985
+CCSD observable: -241.51518598731766
+CCSD(T) observable: -241.49462449081224
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -26.67195872574448  E_corr = -0.544188463462537
+UCCSD(T) correction = -0.0192118393782544
+E(UCCSD) = -26.6767896902001  E_corr = -0.544184917058523
+UCCSD(T) correction = -0.0192116138027106
+# FD single point energies:
+# emf_m: -26.127770262281942, emf_p: -26.13260477314155
+# emp2_m: -26.499622828729525, emp2_p: -26.504459571337904
+# eccsd_m: -26.671958725744478, eccsd_p: -26.676789690200103
+# eccsdpt_m: -26.691170565122732, eccsd_p: -26.696001304002813
+# FD Observables:
+HF observable: -241.7255429804754
+MP2 observable: -241.8371304189648
+CCSD observable: -241.5482227812404
+CCSD(T) observable: -241.53694400403933
+number of H: 60
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -32.01876353243393  E_corr = -0.7572907639617827
+CCSD(T) correction = -0.0247074540977219
+E(CCSD) = -32.02483067851974  E_corr = -0.7572810113221593
+CCSD(T) correction = -0.0247069449273626
+# FD single point energies:
+# emf_m: -31.261472768472146, emf_p: -31.267549667197557
+# emp2_m: -31.855574963851073, emp2_p: -31.86164698020394
+# eccsd_m: -32.01876353243393, eccsd_p: -32.02483067851974
+# eccsdpt_m: -32.04347098653165, eccsd_p: -32.0495376234471
+# FD Observables:
+HF observable: -303.84493627053644
+MP2 observable: -303.6008176433569
+CCSD observable: -303.3573042905857
+CCSD(T) observable: -303.33184577244765
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -31.99851391902993  E_corr = -0.6506043356050963
+UCCSD(T) correction = -0.0231405014785895
+E(UCCSD) = -32.00458138793461  E_corr = -0.6505996432546631
+UCCSD(T) correction = -0.0231402124855964
+# FD single point energies:
+# emf_m: -31.347909583424723, emf_p: -31.35398174467997
+# emp2_m: -31.79439954948583, emp2_p: -31.80047111014151
+# eccsd_m: -31.998513919029932, eccsd_p: -32.00458138793461
+# eccsdpt_m: -32.02165442050852, eccsd_p: -32.0277216004202
+# FD Observables:
+HF observable: -303.6080627623505
+MP2 observable: -303.57803278384665
+CCSD observable: -303.37344523374554
+CCSD(T) observable: -303.35899558409096
+number of H: 70
+#
+#
+# Finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -37.34649689372227  E_corr = -0.8834065470643977
+CCSD(T) correction = -0.029719789304174
+E(CCSD) = -37.35384276346639  E_corr = -0.8833951715492411
+CCSD(T) correction = -0.0297191814414449
+# FD single point energies:
+# emf_m: -36.46309034665785, emf_p: -36.47044759191718
+# emp2_m: -37.159459131662054, emp2_p: -37.16681068338932
+# eccsd_m: -37.346496893722275, eccsd_p: -37.35384276346639
+# eccsdpt_m: -37.37621668302645, eccsd_p: -37.38356194490783
+# FD Observables:
+HF observable: -367.86226296641183
+MP2 observable: -367.57758636341003
+CCSD observable: -367.2934872056998
+CCSD(T) observable: -367.26309406915897
+#
+# Finite difference properties using uhf reference
+# epsilon: 1e-05
+E(UCCSD) = -37.32516325466734  E_corr = -0.7571385638939411
+UCCSD(T) correction = -0.0271302080624942
+E(UCCSD) = -37.33250952148837  E_corr = -0.7571331376785596
+UCCSD(T) correction = -0.0271299422375718
+# FD single point energies:
+# emf_m: -36.56802469077334, emf_p: -36.5753763838097
+# emp2_m: -37.08915714973919, emp2_p: -37.09651028562164
+# eccsd_m: -37.32516325466734, eccsd_p: -37.33250952148837
+# eccsdpt_m: -37.35229346272983, eccsd_p: -37.35963946372594
+# FD Observables:
+HF observable: -367.58465181776495
+MP2 observable: -367.65679412269486
+CCSD observable: -367.31334105155605
+CCSD(T) observable: -367.3000498054079

@@ -1,0 +1,108 @@
+converged SCF energy = -460.107593815371
+E(CCSD) = -460.3347234992922  E_corr = -0.2271296839215999
+CCSD(T) correction = -0.00850974449139846
+CCSD(T) energy -460.3432332437836
+#
+# Orbital relaxed finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -460.3347082023366  E_corr = -0.2271292813512163
+CCSD(T) correction = -0.00850969981455327
+E(CCSD) = -460.33473879814  E_corr = -0.2271300866072459
+CCSD(T) correction = -0.00850978918454109
+# FD single point energies:
+# emf_m: -460.1075985366684, emf_p: -460.10758909584985
+# emp2_m: -460.3151343507966, emp2_p: -460.31512557344746
+# eccsd_m: -460.33472781801953, eccsd_p: -460.3347191824571
+# eccsdpt_m: -460.3432375178341, eccsd_p: -460.3432289716416
+# FD Observables:
+HF observable: 0.47204092652464164
+MP2 observable: 0.43886745686450007
+CCSD observable: 0.43177812187877856
+CCSD(T) observable: 0.4273096237739082
+#
+# Orbital unrelaxed finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -460.3347081886669  E_corr = -0.2271292685459178
+CCSD(T) correction = -0.00850967960897396
+E(CCSD) = -460.3347388120621  E_corr = -0.2271301014388551
+CCSD(T) correction = -0.00850980935671983
+# FD single point energies:
+# emf_m: -460.1076134310536, emf_p: 1.96156829e-05
+# emp2_m: -460.3151337336033, emp2_p: -460.3151261888426
+# eccsd_m: -460.3347278043498, eccsd_p: -460.3347191963792
+# eccsdpt_m: -460.3432374839588, eccsd_p: -460.3432290057359
+# FD Observables:
+MP2 observable: 0.37723803529843275
+CCSD observable: 0.43039853210302675
+CCSD(T) observable: 0.4239111433435027
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (4, 4)
+# Number of basis functions: 68
+# Number of Cholesky vectors: 406
+
+# Number of MPI ranks: 36
+#
+# norb: 68
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 4
+# n_walkers: 50
+# seed: 98
+# orbital_rotation: True
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# do_sr: True
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -4.601075934e+02     1.99e+00 
+#     1      -4.603420715e+02     1.76e+02 
+#     2      -4.603438721e+02     3.49e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -4.603433982e+02        9.027196521e-04        4.291411721e-01       8.80e+02 
+     1      -4.603439088e+02        5.451233643e-04        4.285344263e-01       1.40e+03 
+     2      -4.603443942e+02        4.530920143e-04        4.302779485e-01       1.92e+03 
+     3      -4.603445662e+02        3.829650990e-04        4.287106462e-01       2.44e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 3 
+#
+# Mean: -4.60344520e+02
+# Block size    # of blocks         Mean                Error
+      1              141       -4.60344520e+02       3.668439e-04
+      2               70       -4.60344573e+02       3.984350e-04
+      5               28       -4.60344573e+02       3.595839e-04
+     10               14       -4.60344573e+02       3.621636e-04
+     20                7       -4.60344573e+02       2.854615e-04
+     50                2       -4.60344281e+02       2.451057e-04
+# Stocahstic error estimate: 3.984350e-04
+#
+AFQMC energy: -460.3445 +/- 0.0004
+
+#
+# Mean: 4.28872921e-01
+# Block size    # of blocks         Mean                Error
+      1              141       4.28872921e-01       1.264196e-03
+      2               70       4.28878021e-01       1.157462e-03
+      5               28       4.28878021e-01       1.197109e-03
+     10               14       4.28878021e-01       1.058296e-03
+     20                7       4.28878021e-01       8.391505e-04
+     50                2       4.29347977e-01       4.103352e-04
+# Stocahstic error estimate: 1.264196e-03
+#
+AFQMC observable: 0.429 +/- 0.001
+
+ph_afqmc walltime: 2439.3575031757355

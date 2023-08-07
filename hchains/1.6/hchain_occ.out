@@ -1,0 +1,590 @@
+number of H: 10
+
+converged SCF energy = -5.25628158758201
+converged SCF energy = -5.25628158757662  <S^2> = 8.7784722e-09  2S+1 = 1
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -5.25628158757666  <S^2> = 8.7375502e-09  2S+1 = 1
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -5.25628158757669  <S^2> = 8.7173975e-09  2S+1 = 1
+fci_ene: -5.384361066095501
+1e ene: 1.7106977631365914
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (5, 5)
+# Number of basis functions: 10
+# Number of Cholesky vectors: 27
+
+# Number of MPI ranks: 36
+#
+# norb: 10
+# nelec: (5, 5)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.256281292e+00     3.82e+00 
+#     1      -5.379376411e+00     1.45e+01 
+#     2      -5.382528782e+00     2.48e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.380699641e+00        7.301270023e-04        1.713154959e+00       6.30e+01 
+     1      -5.381021094e+00        5.859404033e-04        1.712827776e+00       7.14e+01 
+     2      -5.380982704e+00        4.453992974e-04        1.712803620e+00       7.98e+01 
+     3      -5.381344421e+00        3.938865914e-04        1.712713399e+00       8.82e+01 
+     4      -5.381288613e+00        3.654618769e-04        1.712811519e+00       9.66e+01 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 1 
+#
+# Mean: -5.38129736e+00
+# Block size    # of blocks         Mean                Error
+      1              179       -5.38129736e+00       3.674001e-04
+      2               89       -5.38131258e+00       3.556699e-04
+      5               35       -5.38125019e+00       2.975917e-04
+     10               17       -5.38125346e+00       3.521341e-04
+     20                8       -5.38131521e+00       4.137162e-04
+     50                3       -5.38126766e+00       4.090372e-04
+# Stocahstic error estimate: 3.674001e-04
+#
+AFQMC energy: -5.3813 +/- 0.0004
+
+#
+# Mean: 1.71268321e+00
+# Block size    # of blocks         Mean                Error
+      1              179       1.71268321e+00       2.517825e-04
+      2               89       1.71268699e+00       2.322444e-04
+      5               35       1.71269959e+00       2.647578e-04
+     10               17       1.71272701e+00       3.401509e-04
+     20                8       1.71280377e+00       2.139938e-04
+     50                3       1.71271962e+00       3.250253e-05
+# Stocahstic error estimate: 2.517825e-04
+#
+AFQMC observable: 1.7127 +/- 0.0003
+
+ph_afqmc walltime: 96.63235855102539
+number of H: 20
+
+converged SCF energy = -10.4560120159126
+converged SCF energy = -10.4686211746085  <S^2> = 0.8260778  2S+1 = 2.0746834
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -10.4686211746126  <S^2> = 0.82607703  2S+1 = 2.0746827
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -10.4686211746136  <S^2> = 0.82607681  2S+1 = 2.0746824
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (10, 10)
+# Number of basis functions: 20
+# Number of Cholesky vectors: 57
+
+# Number of MPI ranks: 36
+#
+# norb: 20
+# nelec: (10, 10)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -1.046862031e+01     5.90e+00 
+#     1      -1.069362164e+01     3.30e+01 
+#     2      -1.071246529e+01     6.00e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -1.071363330e+01        6.624480745e-04        1.713940539e+00       1.74e+02 
+     1      -1.071382321e+01        4.827056657e-04        1.714655283e+00       2.18e+02 
+     2      -1.071398304e+01        4.174484278e-04        1.716363547e+00       2.61e+02 
+     3      -1.071400143e+01        3.659342249e-04        1.716261390e+00       3.05e+02 
+     4      -1.071382455e+01        3.169707907e-04        1.715926357e+00       3.48e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 4 
+#
+# Mean: -1.07138672e+01
+# Block size    # of blocks         Mean                Error
+      1              176       -1.07138672e+01       3.180951e-04
+      2               88       -1.07138672e+01       3.112342e-04
+      5               35       -1.07138835e+01       2.994623e-04
+     10               17       -1.07139040e+01       3.042003e-04
+     20                8       -1.07140092e+01       2.234791e-04
+     50                3       -1.07140183e+01       1.812049e-04
+# Stocahstic error estimate: 3.180951e-04
+#
+AFQMC energy: -10.7139 +/- 0.0003
+
+#
+# Mean: 1.71475437e+00
+# Block size    # of blocks         Mean                Error
+      1              176       1.71475437e+00       2.461053e-04
+      2               88       1.71475437e+00       2.304342e-04
+      5               35       1.71476306e+00       2.751576e-04
+     10               17       1.71484730e+00       2.905234e-04
+     20                8       1.71474456e+00       2.156499e-04
+     50                3       1.71476692e+00       3.059231e-04
+# Stocahstic error estimate: 2.461053e-04
+#
+AFQMC observable: 1.7148 +/- 0.0002
+
+ph_afqmc walltime: 348.22851514816284
+number of H: 30
+
+converged SCF energy = -15.6578354884421
+converged SCF energy = -15.6887179510098  <S^2> = 1.3786191  2S+1 = 2.5523473
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -15.6887179510109  <S^2> = 1.3786209  2S+1 = 2.5523486
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -15.6887179510113  <S^2> = 1.3786212  2S+1 = 2.5523489
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (15, 15)
+# Number of basis functions: 30
+# Number of Cholesky vectors: 87
+
+# Number of MPI ranks: 36
+#
+# norb: 30
+# nelec: (15, 15)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -1.568871655e+01     8.64e+00 
+#     1      -1.601906395e+01     7.52e+01 
+#     2      -1.604457855e+01     1.41e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -1.604791167e+01        9.701581625e-04        1.715127901e+00       3.87e+02 
+     1      -1.604746211e+01        5.845200102e-04        1.715706906e+00       5.27e+02 
+     2      -1.604780458e+01        5.132346313e-04        1.717491333e+00       6.66e+02 
+     3      -1.604819755e+01        4.274676299e-04        1.717136401e+00       8.06e+02 
+     4      -1.604813067e+01        3.982126350e-04        1.716427478e+00       9.46e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 10 
+#
+# Mean: -1.60478457e+01
+# Block size    # of blocks         Mean                Error
+      1              170       -1.60478457e+01       3.983431e-04
+      2               85       -1.60478457e+01       4.011867e-04
+      5               34       -1.60478457e+01       4.292889e-04
+     10               17       -1.60478457e+01       3.692481e-04
+     20                8       -1.60480480e+01       4.020436e-04
+     50                3       -1.60482052e+01       6.691474e-04
+# Stocahstic error estimate: 4.011867e-04
+#
+AFQMC energy: -16.0478 +/- 0.0004
+
+#
+# Mean: 1.71525024e+00
+# Block size    # of blocks         Mean                Error
+      1              170       1.71525024e+00       2.547779e-04
+      2               85       1.71525024e+00       2.495767e-04
+      5               34       1.71525024e+00       2.104454e-04
+     10               17       1.71525024e+00       1.585812e-04
+     20                8       1.71524548e+00       1.725069e-04
+     50                3       1.71523069e+00       2.329206e-04
+# Stocahstic error estimate: 2.547779e-04
+#
+AFQMC observable: 1.7153 +/- 0.0003
+
+ph_afqmc walltime: 945.8178586959839
+number of H: 40
+
+converged SCF energy = -20.8600080818477
+converged SCF energy = -20.9094280127271  <S^2> = 1.8798693  2S+1 = 2.9188144
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -20.9094280127334  <S^2> = 1.8798708  2S+1 = 2.9188154
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -20.9094280127356  <S^2> = 1.8798708  2S+1 = 2.9188154
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (20, 20)
+# Number of basis functions: 40
+# Number of Cholesky vectors: 117
+
+# Number of MPI ranks: 36
+#
+# norb: 40
+# nelec: (20, 20)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -2.090942608e+01     8.26e+00 
+#     1      -2.134768486e+01     1.41e+02 
+#     2      -2.137689018e+01     2.73e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -2.138259603e+01        8.156893443e-04        1.716165660e+00       6.62e+02 
+     1      -2.138349636e+01        5.755783727e-04        1.716127698e+00       9.76e+02 
+     2      -2.138329228e+01        4.598293877e-04        1.714990620e+00       1.29e+03 
+     3      -2.138278755e+01        4.106602275e-04        1.715049770e+00       1.60e+03 
+     4      -2.138307631e+01        3.689795556e-04        1.715037590e+00       1.92e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 4 
+#
+# Mean: -2.13830930e+01
+# Block size    # of blocks         Mean                Error
+      1              176       -2.13830930e+01       3.738151e-04
+      2               88       -2.13830930e+01       3.634880e-04
+      5               35       -2.13831073e+01       3.809438e-04
+     10               17       -2.13831472e+01       3.758104e-04
+     20                8       -2.13829914e+01       4.211745e-04
+     50                3       -2.13828866e+01       4.916857e-04
+# Stocahstic error estimate: 3.738151e-04
+#
+AFQMC energy: -21.3831 +/- 0.0004
+
+#
+# Mean: 1.71568905e+00
+# Block size    # of blocks         Mean                Error
+      1              176       1.71568905e+00       2.642329e-04
+      2               88       1.71568905e+00       2.572546e-04
+      5               35       1.71568864e+00       2.611165e-04
+     10               17       1.71569382e+00       3.242279e-04
+     20                8       1.71578050e+00       3.937065e-04
+     50                3       1.71583061e+00       4.980594e-04
+# Stocahstic error estimate: 2.642329e-04
+#
+AFQMC observable: 1.7157 +/- 0.0003
+
+ph_afqmc walltime: 1916.410305261612
+number of H: 50
+
+converged SCF energy = -26.062253110277
+converged SCF energy = -26.1301875176155  <S^2> = 2.3721142  2S+1 = 3.2385887
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -26.1301875176249  <S^2> = 2.3721174  2S+1 = 3.2385907
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -26.1301875176284  <S^2> = 2.3721175  2S+1 = 3.2385908
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (25, 25)
+# Number of basis functions: 50
+# Number of Cholesky vectors: 147
+
+# Number of MPI ranks: 36
+#
+# norb: 50
+# nelec: (25, 25)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -2.613018506e+01     1.08e+01 
+#     1      -2.667523766e+01     2.56e+02 
+#     2      -2.671174812e+01     5.03e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -2.671764864e+01        1.143523187e-03        1.717400977e+00       1.22e+03 
+     1      -2.671831432e+01        6.393667570e-04        1.716638429e+00       1.84e+03 
+     2      -2.671823620e+01        5.307812679e-04        1.716445559e+00       2.45e+03 
+     3      -2.671843722e+01        4.734989256e-04        1.716326834e+00       3.06e+03 
+     4      -2.671885447e+01        4.256459447e-04        1.717045669e+00       3.68e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 3 
+#
+# Mean: -2.67188673e+01
+# Block size    # of blocks         Mean                Error
+      1              177       -2.67188673e+01       4.175104e-04
+      2               88       -2.67188570e+01       4.355864e-04
+      5               35       -2.67188328e+01       4.157567e-04
+     10               17       -2.67187519e+01       4.361475e-04
+     20                8       -2.67186984e+01       3.116369e-04
+     50                3       -2.67186744e+01       3.620220e-04
+# Stocahstic error estimate: 4.355864e-04
+#
+AFQMC energy: -26.7189 +/- 0.0004
+
+#
+# Mean: 1.71683376e+00
+# Block size    # of blocks         Mean                Error
+      1              177       1.71683376e+00       3.072566e-04
+      2               88       1.71682361e+00       2.952730e-04
+      5               35       1.71683708e+00       2.750074e-04
+     10               17       1.71685135e+00       2.511232e-04
+     20                8       1.71687404e+00       3.454657e-04
+     50                3       1.71688699e+00       5.641476e-04
+# Stocahstic error estimate: 3.072566e-04
+#
+AFQMC observable: 1.7168 +/- 0.0003
+
+ph_afqmc walltime: 3676.8433599472046
+number of H: 60
+
+converged SCF energy = -31.2645112175789
+converged SCF energy = -31.3509456639441  <S^2> = 2.8629725  2S+1 = 3.5287236
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -31.3509456639551  <S^2> = 2.862977  2S+1 = 3.5287261
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -31.3509456639593  <S^2> = 2.8629773  2S+1 = 3.5287263
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (30, 30)
+# Number of basis functions: 60
+# Number of Cholesky vectors: 177
+
+# Number of MPI ranks: 36
+#
+# norb: 60
+# nelec: (30, 30)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -3.135094268e+01     1.35e+01 
+#     1      -3.200612259e+01     4.18e+02 
+#     2      -3.204445648e+01     8.20e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -3.205101521e+01        1.680334666e-03        1.716916725e+00       1.98e+03 
+     1      -3.205242320e+01        1.104641563e-03        1.717073303e+00       3.02e+03 
+     2      -3.205335673e+01        7.065408294e-04        1.716362508e+00       4.05e+03 
+     3      -3.205387822e+01        6.092388314e-04        1.717497745e+00       5.09e+03 
+     4      -3.205435125e+01        5.177744563e-04        1.717019691e+00       6.12e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 4 
+#
+# Mean: -3.20543527e+01
+# Block size    # of blocks         Mean                Error
+      1              176       -3.20543527e+01       5.271053e-04
+      2               88       -3.20543527e+01       5.365374e-04
+      5               35       -3.20542942e+01       5.952193e-04
+     10               17       -3.20542431e+01       6.734436e-04
+     20                8       -3.20541021e+01       8.114573e-04
+     50                3       -3.20539517e+01       1.237711e-03
+# Stocahstic error estimate: 5.365374e-04
+#
+AFQMC energy: -32.0544 +/- 0.0005
+
+#
+# Mean: 1.71659542e+00
+# Block size    # of blocks         Mean                Error
+      1              176       1.71659542e+00       3.377791e-04
+      2               88       1.71659542e+00       3.334758e-04
+      5               35       1.71662886e+00       3.518089e-04
+     10               17       1.71665858e+00       4.039390e-04
+     20                8       1.71667084e+00       4.370284e-04
+     50                3       1.71660727e+00       1.824201e-04
+# Stocahstic error estimate: 3.377791e-04
+#
+AFQMC observable: 1.7166 +/- 0.0003
+
+ph_afqmc walltime: 6122.710641622543
+number of H: 70
+
+converged SCF energy = -36.4667689690033
+converged SCF energy = -36.5717005370519  <S^2> = 3.353669  2S+1 = 3.7966665
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.scf.uhf.UHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -36.5717005370638  <S^2> = 3.3536749  2S+1 = 3.7966695
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the internal stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the real -> complex stability analysis
+<class 'pyscf.soscf.newton_ah.newton.<locals>.SecondOrderUHF'> wavefunction is stable in the UHF/UKS -> GHF/GKS stability analysis
+converged SCF energy = -36.5717005370683  <S^2> = 3.3536754  2S+1 = 3.7966698
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (35, 35)
+# Number of basis functions: 70
+# Number of Cholesky vectors: 207
+
+# Number of MPI ranks: 36
+#
+# norb: 70
+# nelec: (35, 35)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 9889141
+# walker_type: uhf
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# orbital_rotation: True
+# do_sr: True
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -3.657169703e+01     6.24e+00 
+#     1      -3.733310318e+01     5.99e+02 
+#     2      -3.737946701e+01     1.19e+03 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -3.738724144e+01        1.375452319e-03        1.716802659e+00       2.83e+03 
+     1      -3.738827030e+01        8.123812144e-04        1.718108835e+00       4.44e+03 
+     2      -3.738791823e+01        6.796316551e-04        1.717265702e+00       6.04e+03 
+     3      -3.738859503e+01        6.135396128e-04        1.716698746e+00       7.65e+03 
+     4      -3.738928824e+01        5.521241185e-04        1.716997414e+00       9.26e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 3 
+#
+# Mean: -3.73892696e+01
+# Block size    # of blocks         Mean                Error
+      1              177       -3.73892696e+01       5.444440e-04
+      2               88       -3.73892934e+01       5.650186e-04
+      5               35       -3.73892849e+01       7.148260e-04
+     10               17       -3.73893184e+01       7.363597e-04
+     20                8       -3.73892779e+01       1.082042e-03
+     50                3       -3.73890278e+01       1.319660e-03
+# Stocahstic error estimate: 5.650186e-04
+#
+AFQMC energy: -37.3893 +/- 0.0006
+
+#
+# Mean: 1.71603310e+00
+# Block size    # of blocks         Mean                Error
+      1              177       1.71603310e+00       3.502146e-04
+      2               88       1.71604008e+00       3.583577e-04
+      5               35       1.71599999e+00       3.379359e-04
+     10               17       1.71606314e+00       3.510357e-04
+     20                8       1.71620244e+00       4.740102e-04
+     50                3       1.71610834e+00       5.067165e-04
+# Stocahstic error estimate: 3.583577e-04
+#
+AFQMC observable: 1.7160 +/- 0.0004
+
+ph_afqmc walltime: 9256.838150262833

@@ -1,0 +1,94 @@
+converged SCF energy = -113.30651297093
+E(CCSD) = -113.1410811119712  E_corr = -0.3749149684551076
+CCSD(T) correction = -0.0207981042986384
+CCSD(T) energy -113.16187921626987
+ccsd dipole (unrelaxed): [ 1.84919289e-16  4.08522828e-02 -2.42594543e-16]
+#
+# Orbital relaxed finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -113.1444726356719  E_corr = -0.3637325383640895
+CCSD(T) correction = -0.0177125124494325
+E(CCSD) = -113.1444651332789  E_corr = -0.3637298317936615
+CCSD(T) correction = -0.0177120514727816
+# FD single point energies:
+# emf_m: -112.78073654542841, emf_p: -112.7807388533647
+# emp2_m: -113.14235080954981, emp2_p: -113.14234870960408
+# eccsd_m: -113.1444690837925, eccsd_p: -113.14446868515833
+# eccsdpt_m: -113.16218159624194, eccsd_p: -113.16218073663111
+# FD Observables:
+HF observable: -0.11539681423755609
+MP2 observable: 0.10499728659851824
+CCSD observable: 0.019931708550302574
+CCSD(T) observable: 0.04298054108176074
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (5, 5)
+# Number of basis functions: 90
+# Number of Cholesky vectors: 525
+
+# Number of MPI ranks: 28
+#
+# norb: 90
+# nelec: (5, 5)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_sr_blocks: 50
+# n_blocks: 5
+# n_walkers: 50
+# seed: 98
+# orbital_rotation: False
+# ad_mode: forward
+# dt: 0.01
+# n_prop_steps: 50
+# do_sr: True
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -1.127661627e+02     2.83e+00 
+#     1      -1.131578217e+02     4.09e+02 
+#     2      -1.131658554e+02     8.15e+02 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -1.131619316e+02        1.865707580e-03        5.408028130e-02       1.60e+03 
+     1      -1.131623651e+02        1.312113718e-03        3.719132794e-02       2.38e+03 
+     2      -1.131624560e+02        1.080122775e-03        4.454264302e-02       3.16e+03 
+     3      -1.131625931e+02        9.188137227e-04        4.716984598e-02       3.94e+03 
+     4      -1.131633452e+02        8.648240853e-04        4.557426814e-02       4.71e+03 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 4 
+#
+# Mean: -1.13163196e+02
+# Block size    # of blocks         Mean                Error
+      1              136       -1.13163196e+02       8.837747e-04
+      2               68       -1.13163196e+02       8.668804e-04
+      5               27       -1.13163280e+02       8.431057e-04
+     10               13       -1.13163069e+02       7.708875e-04
+     20                6       -1.13162863e+02       9.596196e-04
+     50                2       -1.13162252e+02       4.804066e-04
+# Stocahstic error estimate: 8.837747e-04
+#
+AFQMC energy: -113.1632 +/- 0.0009
+
+#
+# Mean: 4.26284789e-02
+# Block size    # of blocks         Mean                Error
+      1              136       4.26284789e-02       3.188272e-03
+      2               68       4.26284789e-02       3.315708e-03
+      5               27       4.26304415e-02       3.115864e-03
+     10               13       4.29098183e-02       3.399898e-03
+     20                6       4.38868874e-02       2.952016e-03
+     50                2       4.31133573e-02       1.408922e-04
+# Stocahstic error estimate: 3.315708e-03
+#
+AFQMC observable: 0.043 +/- 0.003
+
+ph_afqmc walltime: 4713.341626882553

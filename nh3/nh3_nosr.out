@@ -1,0 +1,691 @@
+converged SCF energy = -56.1956310927737
+E(CCSD) = -56.39815840267549  E_corr = -0.2025273099017559
+CCSD(T) correction = -0.0037906729675779
+CCSD(T) energy -56.40194907564307
+#
+# Orbital relaxed finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -56.39814317123427  E_corr = -0.2025270459238767
+CCSD(T) correction = -0.00379062950934264
+E(CCSD) = -56.39817363474888  E_corr = -0.2025275738763291
+CCSD(T) correction = -0.00379071642813631
+# FD single point energies:
+# emf_m: -56.195637751924906, emf_p: -56.19562443425802
+# emp2_m: -56.38193761437747, emp2_p: -56.38192468728572
+# eccsd_m: -56.398164797848786, eccsd_p: -56.39815200813437
+# eccsdpt_m: -56.401955427358125, eccsd_p: -56.4019427245625
+# FD Observables:
+HF observable: 0.6658833441974821
+MP2 observable: 0.6463545876300714
+CCSD observable: 0.6394857209102156
+CCSD(T) observable: 0.6351397811243942
+#
+# Orbital unrelaxed finite difference properties using rhf reference
+# epsilon: 1e-05
+E(CCSD) = -56.39814317198933  E_corr = -0.2025270470176952
+CCSD(T) correction = -0.00379062290187433
+E(CCSD) = -56.39817363385096  E_corr = -0.2025275732748642
+CCSD(T) correction = -0.0037907230216633
+# FD single point energies:
+# emf_m: -56.19565271938828, emf_p: 2.1626614509290183e-05
+# emp2_m: -56.38193753721954, emp2_p: -56.381924763791275
+# eccsd_m: -56.398164798603844, eccsd_p: -56.39815200723645
+# eccsdpt_m: -56.40195542150572, eccsd_p: -56.401942730258114
+# FD Observables:
+MP2 observable: 0.638671413355496
+CCSD observable: 0.6395683698201537
+CCSD(T) observable: 0.6345623802417322
+#
+# Preparing AFQMC calculation
+# Calculating Cholesky integrals
+# Finished calculating Cholesky integrals
+
+# Size of the correlation space:
+# Number of electrons: (4, 4)
+# Number of basis functions: 28
+# Number of Cholesky vectors: 184
+
+
+n_ene_blocks: 1
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 1
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.77e+00 
+#     1      -5.640153503e+01     3.41e+01 
+#     2      -5.640354538e+01     6.63e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.636441116e+01        2.149465148e-03        6.502845724e-01       7.75e+01 
+     1      -5.637620930e+01                -              6.462180895e-01       7.94e+01 
+     2      -5.638436644e+01                -              6.468317097e-01       8.13e+01 
+     3      -5.638766524e+01                -              6.463126005e-01       8.31e+01 
+     4      -5.639055852e+01                -              6.467225228e-01       8.50e+01 
+     5      -5.639307638e+01                -              6.479473985e-01       8.69e+01 
+     6      -5.639465711e+01                -              6.477720208e-01       8.87e+01 
+     7      -5.639587084e+01                -              6.472892856e-01       9.06e+01 
+     8      -5.639703023e+01                -              6.470615605e-01       9.25e+01 
+     9      -5.639831052e+01                -              6.529674144e-01       9.44e+01 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 1 
+#
+# Mean: -5.63978202e+01
+# Block size    # of blocks         Mean                Error
+      1              359       -5.63978202e+01       1.146589e-03
+      2              179       -5.63978096e+01       1.364637e-03
+      5               71       -5.63978217e+01       1.752147e-03
+     10               35       -5.63975954e+01       2.382106e-03
+     20               17       -5.63976029e+01       3.227561e-03
+     50                7       -5.63975954e+01       5.134882e-03
+    100                3       -5.63965280e+01       8.074876e-03
+AFQMC energy: -56.39782022640644
+
+#
+# Mean: 6.46821528e-01
+# Block size    # of blocks         Mean                Error
+      1              359       6.46821528e-01       1.048479e-03
+      2              179       6.46790002e-01       1.062032e-03
+      5               71       6.46726568e-01       1.055262e-03
+     10               35       6.46611892e-01       9.942158e-04
+     20               17       6.46486060e-01       1.217389e-03
+     50                7       6.46611892e-01       1.295061e-03
+    100                3       6.47226540e-01       1.159095e-03
+# Stocahstic error estimate: 1.062032e-03
+#
+AFQMC observable: 0.647 +/- 0.001
+
+ph_afqmc walltime: 94.39192962646484
+
+n_ene_blocks: 4
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 4
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.78e+00 
+#     1      -5.640153503e+01     3.44e+01 
+#     2      -5.640354538e+01     6.68e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.638714898e+01        1.750024447e-03        6.431522599e-01       8.26e+01 
+     1      -5.639258882e+01                -              6.428063197e-01       8.93e+01 
+     2      -5.639633761e+01                -              6.436163489e-01       9.59e+01 
+     3      -5.639814743e+01                -              6.426483145e-01       1.03e+02 
+     4      -5.639891456e+01                -              6.421886957e-01       1.09e+02 
+     5      -5.640018309e+01                -              6.419994241e-01       1.16e+02 
+     6      -5.640077980e+01                -              6.413850965e-01       1.23e+02 
+     7      -5.640060830e+01                -              6.406860082e-01       1.29e+02 
+     8      -5.640070873e+01                -              6.403889919e-01       1.36e+02 
+     9      -5.640091424e+01                -              6.412159875e-01       1.43e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 1 
+#
+# Mean: -5.64008392e+01
+# Block size    # of blocks         Mean                Error
+      1              359       -5.64008392e+01       6.501529e-04
+      2              179       -5.64008461e+01       7.013008e-04
+      5               71       -5.64008860e+01       8.302364e-04
+     10               35       -5.64009240e+01       1.018288e-03
+     20               17       -5.64008206e+01       1.374806e-03
+     50                7       -5.64009240e+01       2.029444e-03
+    100                3       -5.64005492e+01       2.976167e-03
+AFQMC energy: -56.40083921134283
+
+#
+# Mean: 6.40845052e-01
+# Block size    # of blocks         Mean                Error
+      1              359       6.40845052e-01       7.360918e-04
+      2              179       6.40826634e-01       7.247166e-04
+      5               71       6.40815685e-01       7.410855e-04
+     10               35       6.40665327e-01       7.227682e-04
+     20               17       6.40575248e-01       8.762085e-04
+     50                7       6.40665327e-01       1.216599e-03
+    100                3       6.40518116e-01       2.315884e-03
+# Stocahstic error estimate: 7.360918e-04
+#
+AFQMC observable: 0.6408 +/- 0.0007
+
+ph_afqmc walltime: 142.6966106891632
+
+n_ene_blocks: 8
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 8
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.78e+00 
+#     1      -5.640153503e+01     3.44e+01 
+#     2      -5.640354538e+01     6.67e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.639449751e+01        1.968763415e-03        6.384432286e-01       8.86e+01 
+     1      -5.639962981e+01                -              6.381474272e-01       1.02e+02 
+     2      -5.640159926e+01                -              6.389485414e-01       1.15e+02 
+     3      -5.640229616e+01                -              6.383186545e-01       1.28e+02 
+     4      -5.640221814e+01                -              6.374150332e-01       1.41e+02 
+     5      -5.640245529e+01                -              6.380316550e-01       1.54e+02 
+     6      -5.640285666e+01                -              6.372658190e-01       1.67e+02 
+     7      -5.640271420e+01        6.080074991e-04        6.370897106e-01       1.80e+02 
+     8      -5.640261937e+01        5.646974720e-04        6.372333522e-01       1.93e+02 
+     9      -5.640283618e+01        9.768455128e-04        6.370471839e-01       2.06e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 0 
+#
+# Mean: -5.64028362e+01
+# Block size    # of blocks         Mean                Error
+      1              360       -5.64028362e+01       5.106348e-04
+      2              180       -5.64028362e+01       5.387708e-04
+      5               72       -5.64028362e+01       5.853838e-04
+     10               36       -5.64028362e+01       6.721891e-04
+     20               18       -5.64028362e+01       7.791040e-04
+     50                7       -5.64027347e+01       9.768455e-04
+    100                3       -5.64025982e+01       9.575384e-04
+# Stocahstic error estimate: 9.768455e-04
+#
+AFQMC energy: -56.4028 +/- 0.0010
+
+#
+# Mean: 6.37047184e-01
+# Block size    # of blocks         Mean                Error
+      1              360       6.37047184e-01       6.854851e-04
+      2              180       6.37047184e-01       6.891303e-04
+      5               72       6.37047184e-01       7.517585e-04
+     10               36       6.37047184e-01       7.848349e-04
+     20               18       6.37047184e-01       7.918455e-04
+     50                7       6.37276493e-01       5.452331e-04
+    100                3       6.37147445e-01       1.077976e-03
+# Stocahstic error estimate: 6.891303e-04
+#
+AFQMC observable: 0.6370 +/- 0.0007
+
+ph_afqmc walltime: 206.02576756477356
+
+n_ene_blocks: 12
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 12
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.77e+00 
+#     1      -5.640153503e+01     3.44e+01 
+#     2      -5.640354538e+01     6.67e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.639792321e+01                -              6.366346316e-01       9.51e+01 
+     1      -5.640114983e+01                -              6.347230214e-01       1.14e+02 
+     2      -5.640154411e+01        8.039484692e-04        6.336923382e-01       1.34e+02 
+     3      -5.640215400e+01        7.217301435e-04        6.341307722e-01       1.53e+02 
+     4      -5.640273796e+01        6.571927279e-04        6.335442007e-01       1.73e+02 
+     5      -5.640248547e+01        6.306157277e-04        6.343958617e-01       1.92e+02 
+     6      -5.640263360e+01        5.739937555e-04        6.307353535e-01       2.12e+02 
+     7      -5.640264850e+01        5.406460661e-04        6.315213078e-01       2.31e+02 
+     8      -5.640289624e+01        5.036590701e-04        6.322241938e-01       2.50e+02 
+     9      -5.640273386e+01        4.694756025e-04        6.326292853e-01       2.70e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 3 
+#
+# Mean: -5.64025429e+01
+# Block size    # of blocks         Mean                Error
+      1              357       -5.64025429e+01       4.370142e-04
+      2              178       -5.64025321e+01       4.525631e-04
+      5               71       -5.64025386e+01       4.821674e-04
+     10               35       -5.64025564e+01       5.331162e-04
+     20               17       -5.64026661e+01       4.847290e-04
+     50                7       -5.64025564e+01       5.830121e-04
+    100                3       -5.64026290e+01       8.278829e-04
+# Stocahstic error estimate: 4.525631e-04
+#
+AFQMC energy: -56.4025 +/- 0.0005
+
+#
+# Mean: 6.35196604e-01
+# Block size    # of blocks         Mean                Error
+      1              357       6.35196604e-01       6.143882e-04
+      2              178       6.35174810e-01       6.197889e-04
+      5               71       6.35238373e-01       5.567359e-04
+     10               35       6.35277986e-01       6.351206e-04
+     20               17       6.35241634e-01       7.760368e-04
+     50                7       6.35277986e-01       8.968465e-04
+    100                3       6.34887850e-01       5.266050e-04
+# Stocahstic error estimate: 6.197889e-04
+#
+AFQMC observable: 0.6352 +/- 0.0006
+
+ph_afqmc walltime: 269.804692029953
+
+n_ene_blocks: 16
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 16
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.79e+00 
+#     1      -5.640153503e+01     3.45e+01 
+#     2      -5.640354538e+01     6.67e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.639915982e+01        1.600452508e-03        6.366967300e-01       1.01e+02 
+     1      -5.640188210e+01        8.452022533e-04        6.364602465e-01       1.27e+02 
+     2      -5.640232167e+01        7.026523022e-04        6.362706518e-01       1.53e+02 
+     3      -5.640270439e+01        6.502421046e-04        6.369191776e-01       1.78e+02 
+     4      -5.640263493e+01        5.683190363e-04        6.367161768e-01       2.04e+02 
+     5      -5.640264502e+01        5.074387241e-04        6.365979621e-01       2.30e+02 
+     6      -5.640278551e+01        4.600462568e-04        6.366582117e-01       2.55e+02 
+     7      -5.640257060e+01        4.265222282e-04        6.364625929e-01       2.81e+02 
+     8      -5.640259758e+01        3.931780951e-04        6.362178067e-01       3.07e+02 
+     9      -5.640272193e+01        3.747533036e-04        6.363289410e-01       3.33e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 1 
+#
+# Mean: -5.64026419e+01
+# Block size    # of blocks         Mean                Error
+      1              359       -5.64026419e+01       3.673016e-04
+      2              179       -5.64026589e+01       3.531385e-04
+      5               71       -5.64026477e+01       4.177590e-04
+     10               35       -5.64026442e+01       4.539494e-04
+     20               17       -5.64026003e+01       4.662997e-04
+     50                7       -5.64026442e+01       4.591963e-04
+    100                3       -5.64025001e+01       3.645665e-04
+# Stocahstic error estimate: 3.673016e-04
+#
+AFQMC energy: -56.4026 +/- 0.0004
+
+#
+# Mean: 6.36033216e-01
+# Block size    # of blocks         Mean                Error
+      1              359       6.36033216e-01       5.649858e-04
+      2              179       6.36026295e-01       5.488670e-04
+      5               71       6.36023810e-01       5.587358e-04
+     10               35       6.35993618e-01       5.378057e-04
+     20               17       6.35849900e-01       5.161030e-04
+     50                7       6.35993618e-01       4.782206e-04
+    100                3       6.36199291e-01       2.910200e-04
+# Stocahstic error estimate: 5.649858e-04
+#
+AFQMC observable: 0.6360 +/- 0.0006
+
+ph_afqmc walltime: 332.87093925476074
+
+n_ene_blocks: 20
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 20
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.77e+00 
+#     1      -5.640153503e+01     3.47e+01 
+#     2      -5.640354538e+01     6.70e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.640025783e+01        1.578227691e-03        6.353988255e-01       1.08e+02 
+     1      -5.640190038e+01        1.040222499e-03        6.347886631e-01       1.40e+02 
+     2      -5.640282629e+01        6.797784662e-04        6.347148307e-01       1.72e+02 
+     3      -5.640259726e+01        5.590080421e-04        6.344052247e-01       2.04e+02 
+     4      -5.640288289e+01        5.006670271e-04        6.344823914e-01       2.37e+02 
+     5      -5.640293599e+01        4.422108535e-04        6.348985621e-01       2.69e+02 
+     6      -5.640291569e+01        4.072627645e-04        6.356084552e-01       3.01e+02 
+     7      -5.640310675e+01        3.830325015e-04        6.353637941e-01       3.33e+02 
+     8      -5.640328898e+01        3.696441535e-04        6.353295202e-01       3.65e+02 
+     9      -5.640350851e+01        3.644209115e-04        6.353385227e-01       3.98e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 4 
+#
+# Mean: -5.64033157e+01
+# Block size    # of blocks         Mean                Error
+      1              356       -5.64033157e+01       3.430965e-04
+      2              178       -5.64033157e+01       3.472685e-04
+      5               71       -5.64032903e+01       3.796912e-04
+     10               35       -5.64032300e+01       3.752490e-04
+     20               17       -5.64032336e+01       4.572994e-04
+     50                7       -5.64032300e+01       5.809351e-04
+    100                3       -5.64031770e+01       3.511881e-04
+# Stocahstic error estimate: 3.472685e-04
+#
+AFQMC energy: -56.4033 +/- 0.0003
+
+#
+# Mean: 6.36109960e-01
+# Block size    # of blocks         Mean                Error
+      1              356       6.36109960e-01       5.537334e-04
+      2              178       6.36109960e-01       5.689111e-04
+      5               71       6.36078315e-01       6.402086e-04
+     10               35       6.36150280e-01       7.070045e-04
+     20               17       6.36189336e-01       8.304154e-04
+     50                7       6.36150280e-01       8.111132e-04
+    100                3       6.35849488e-01       4.150299e-04
+# Stocahstic error estimate: 5.689111e-04
+#
+AFQMC observable: 0.6361 +/- 0.0006
+
+ph_afqmc walltime: 397.67356419563293
+
+n_ene_blocks: 24
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 24
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.79e+00 
+#     1      -5.640153503e+01     3.46e+01 
+#     2      -5.640354538e+01     6.68e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.640060059e+01                -              6.346034311e-01       1.14e+02 
+     1      -5.640181630e+01        8.081312732e-04        6.344785610e-01       1.53e+02 
+     2      -5.640250264e+01        6.326384472e-04        6.339407858e-01       1.91e+02 
+     3      -5.640267450e+01        5.430676115e-04        6.342956833e-01       2.29e+02 
+     4      -5.640280706e+01        4.711129214e-04        6.347150952e-01       2.68e+02 
+     5      -5.640279821e+01        4.240440023e-04        6.353221216e-01       3.06e+02 
+     6      -5.640291227e+01        3.916954050e-04        6.304672377e-01       3.45e+02 
+     7      -5.640314712e+01        3.757894401e-04        6.311159569e-01       3.83e+02 
+     8      -5.640323395e+01        3.575006845e-04        6.317814052e-01       4.22e+02 
+     9      -5.640317879e+01        3.319161927e-04        6.321130405e-01       4.60e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 6 
+#
+# Mean: -5.64030371e+01
+# Block size    # of blocks         Mean                Error
+      1              354       -5.64030371e+01       3.272159e-04
+      2              177       -5.64030371e+01       3.183565e-04
+      5               70       -5.64030651e+01       3.509252e-04
+     10               35       -5.64030651e+01       4.040031e-04
+     20               17       -5.64030664e+01       4.459870e-04
+     50                7       -5.64030651e+01       6.229165e-04
+    100                3       -5.64032137e+01       7.950354e-04
+# Stocahstic error estimate: 3.272159e-04
+#
+AFQMC energy: -56.4030 +/- 0.0003
+
+#
+# Mean: 6.36249415e-01
+# Block size    # of blocks         Mean                Error
+      1              354       6.36249415e-01       5.345203e-04
+      2              177       6.36249415e-01       5.425767e-04
+      5               70       6.36250249e-01       4.881625e-04
+     10               35       6.36250249e-01       4.583760e-04
+     20               17       6.36249973e-01       4.694187e-04
+     50                7       6.36250249e-01       5.961783e-04
+    100                3       6.36195904e-01       8.883416e-04
+# Stocahstic error estimate: 5.425767e-04
+#
+AFQMC observable: 0.6362 +/- 0.0005
+
+ph_afqmc walltime: 460.01976442337036
+
+n_ene_blocks: 28
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 28
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.79e+00 
+#     1      -5.640153503e+01     3.46e+01 
+#     2      -5.640354538e+01     6.70e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.640105651e+01        1.356776284e-03        6.363133448e-01       1.21e+02 
+     1      -5.640228885e+01                -              6.353902800e-01       1.65e+02 
+     2      -5.640234464e+01        5.540672106e-04        6.342782066e-01       2.10e+02 
+     3      -5.640272574e+01        4.929824796e-04        6.341919832e-01       2.55e+02 
+     4      -5.640260716e+01        4.286430378e-04        6.345299900e-01       2.99e+02 
+     5      -5.640273239e+01        3.855293259e-04        6.348444832e-01       3.44e+02 
+     6      -5.640297542e+01        3.649810095e-04        6.349336442e-01       3.89e+02 
+     7      -5.640299363e+01        3.431039655e-04        6.352097951e-01       4.33e+02 
+     8      -5.640313477e+01        3.321195971e-04        6.348714723e-01       4.78e+02 
+     9      -5.640305252e+01        3.174781335e-04        6.348913178e-01       5.23e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 3 
+#
+# Mean: -5.64029829e+01
+# Block size    # of blocks         Mean                Error
+      1              357       -5.64029829e+01       3.136607e-04
+      2              178       -5.64029870e+01       2.834500e-04
+      5               71       -5.64030061e+01       3.289746e-04
+     10               35       -5.64029870e+01       3.541050e-04
+     20               17       -5.64029487e+01       3.722361e-04
+     50                7       -5.64029870e+01       2.274183e-04
+    100                3       -5.64028868e+01       3.948780e-04
+# Stocahstic error estimate: 3.136607e-04
+#
+AFQMC energy: -56.4030 +/- 0.0003
+
+#
+# Mean: 6.35637140e-01
+# Block size    # of blocks         Mean                Error
+      1              357       6.35637140e-01       5.767391e-04
+      2              178       6.35600280e-01       5.751279e-04
+      5               71       6.35615094e-01       5.845383e-04
+     10               35       6.35526808e-01       5.557245e-04
+     20               17       6.35638671e-01       5.622749e-04
+     50                7       6.35526808e-01       4.330401e-04
+    100                3       6.35755419e-01       7.060530e-04
+# Stocahstic error estimate: 5.767391e-04
+#
+AFQMC observable: 0.6356 +/- 0.0006
+
+ph_afqmc walltime: 522.6623027324677
+
+n_ene_blocks: 32
+
+# Number of MPI ranks: 36
+#
+# norb: 28
+# nelec: (4, 4)
+#
+# n_eql: 2
+# n_ene_blocks: 32
+# n_blocks: 10
+# n_walkers: 100
+# seed: 698
+# orbital_rotation: True
+# ad_mode: forward
+# do_sr: False
+# dt: 0.01
+# n_prop_steps: 50
+# n_sr_blocks: 1
+# walker_type: rhf
+# symmetry: False
+#
+# Equilibration sweeps:
+#   Iter        Block energy      Walltime
+#     0      -5.619563651e+01     1.78e+00 
+#     1      -5.640153503e+01     3.44e+01 
+#     2      -5.640354538e+01     6.71e+01 
+#
+# Sampling sweeps:
+#  Iter        Mean energy          Stochastic error       Mean observable       Walltime
+     0      -5.640150597e+01        1.296421399e-03        6.362996280e-01       1.27e+02 
+     1      -5.640276577e+01        6.299327823e-04        6.349349567e-01       1.78e+02 
+     2      -5.640284836e+01        5.565668275e-04        6.347493894e-01       2.29e+02 
+     3      -5.640271648e+01        4.614639488e-04        6.350695317e-01       2.80e+02 
+     4      -5.640283240e+01        3.986679242e-04        6.347055635e-01       3.31e+02 
+     5      -5.640309471e+01        3.680438695e-04        6.349814416e-01       3.82e+02 
+     6      -5.640320411e+01        3.473233917e-04        6.352285756e-01       4.34e+02 
+     7      -5.640334924e+01        3.393235708e-04        6.351330622e-01       4.85e+02 
+     8      -5.640324167e+01        3.174899595e-04        6.350257380e-01       5.36e+02 
+     9      -5.640325674e+01        3.003772530e-04        6.348557982e-01       5.87e+02 
+#
+# Number of large deviations: 0
+# Number of outliers in post: 1 
+#
+# Mean: -5.64032237e+01
+# Block size    # of blocks         Mean                Error
+      1              359       -5.64032237e+01       2.993988e-04
+      2              179       -5.64032357e+01       2.696899e-04
+      5               71       -5.64032031e+01       2.798315e-04
+     10               35       -5.64032219e+01       3.026350e-04
+     20               17       -5.64032092e+01       3.285460e-04
+     50                7       -5.64032219e+01       2.286799e-04
+    100                3       -5.64032398e+01       3.910706e-04
+# Stocahstic error estimate: 2.993988e-04
+#
+AFQMC energy: -56.4032 +/- 0.0003
+
+#
+# Mean: 6.35043544e-01
+# Block size    # of blocks         Mean                Error
+      1              359       6.35043544e-01       5.351807e-04
+      2              179       6.35055242e-01       5.658030e-04
+      5               71       6.34969578e-01       5.627074e-04
+     10               35       6.34995923e-01       4.778433e-04
+     20               17       6.35130658e-01       3.662144e-04
+     50                7       6.34995923e-01       4.459853e-04
+    100                3       6.35260229e-01       1.529638e-04
+# Stocahstic error estimate: 5.658030e-04
+#
+AFQMC observable: 0.6350 +/- 0.0006
+
+ph_afqmc walltime: 586.8032827377319
